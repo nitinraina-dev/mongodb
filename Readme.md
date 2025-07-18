@@ -175,6 +175,31 @@ db.orders.aggregate([
 
 ---
 
+### 📜 Original:
+
+**"BSON stands for Binary JavaScript Object Notation. It is a binary-encoded serialization of JSON documents."**
+
+---
+
+### 🧠 Simple Explanation:
+
+**BSON** is a format used by MongoDB to **store data**.
+It’s very similar to **JSON**, but:
+
+1. It's saved in a **binary (0s and 1s)** format, not plain text.
+2. It can store **extra data types** that JSON can’t (like `Date`, `ObjectId`, etc.).
+3. It’s easier and faster for **computers to read and write** than JSON.
+
+---
+
+### 🔁 Rephrased:
+
+> "BSON is like JSON, but saved in a special format that computers can process more quickly and that supports more kinds of data."
+
+---
+
+
+
 ## 🧪 Tip: View Aggregated Result with Explain
 
 ```js
